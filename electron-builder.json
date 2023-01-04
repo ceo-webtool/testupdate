@@ -1,0 +1,18 @@
+{
+  "productName": "My App",
+  "directories": {
+    "output": "build"
+  },
+  "publish": {
+    "provider": "github",
+    "token": "your-personal-access-token-here"
+  },
+  "win": {
+    "target": "nsis"
+  },
+  "nsis": {
+    "perMachine": true,
+    "allowElevation": true,
+    "allowToChangeInstallationDirectory": true
+  }
+}
